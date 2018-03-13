@@ -1,19 +1,19 @@
 //Write a function to find the longest common prefix string amongst an array of strings.
-//×¢ÒâsubstringµÄÓÃ·¨
+//æ³¨æ„substringçš„ç”¨æ³•
 /*
 public String substring(int beginIndex, int endIndex)
-µÚÒ»¸öintÎª¿ªÊ¼µÄË÷Òı£¬¶ÔÓ¦StringÊı×ÖÖĞµÄ¿ªÊ¼Î»ÖÃ£¬
-µÚ¶ş¸öÊÇ½ØÖ¹µÄË÷ÒıÎ»ÖÃ£¬¶ÔÓ¦StringÖĞµÄ½áÊøÎ»ÖÃ
-1¡¢È¡µÃµÄ×Ö·û´®³¤¶ÈÎª£ºendIndex - beginIndex;
-2¡¢´ÓbeginIndex¿ªÊ¼È¡£¬µ½endIndex½áÊø£¬´Ó0¿ªÊ¼Êı£¬ÆäÖĞ²»°üÀ¨endIndexÎ»ÖÃµÄ×Ö·û
-Èç£º
+ç¬¬ä¸€ä¸ªintä¸ºå¼€å§‹çš„ç´¢å¼•ï¼Œå¯¹åº”Stringæ•°å­—ä¸­çš„å¼€å§‹ä½ç½®ï¼Œ
+ç¬¬äºŒä¸ªæ˜¯æˆªæ­¢çš„ç´¢å¼•ä½ç½®ï¼Œå¯¹åº”Stringä¸­çš„ç»“æŸä½ç½®
+1ã€å–å¾—çš„å­—ç¬¦ä¸²é•¿åº¦ä¸ºï¼šendIndex - beginIndex;
+2ã€ä»beginIndexå¼€å§‹å–ï¼Œåˆ°endIndexç»“æŸï¼Œä»0å¼€å§‹æ•°ï¼Œå…¶ä¸­ä¸åŒ…æ‹¬endIndexä½ç½®çš„å­—ç¬¦
+å¦‚ï¼š
 "hamburger".substring(4, 8) returns "urge"
  "smiles".substring(1, 5) returns "mile"public String substring(int beginIndex, int endIndex)
-µÚÒ»¸öintÎª¿ªÊ¼µÄË÷Òı£¬¶ÔÓ¦StringÊı×ÖÖĞµÄ¿ªÊ¼Î»ÖÃ£¬
-µÚ¶ş¸öÊÇ½ØÖ¹µÄË÷ÒıÎ»ÖÃ£¬¶ÔÓ¦StringÖĞµÄ½áÊøÎ»ÖÃ
-1¡¢È¡µÃµÄ×Ö·û´®³¤¶ÈÎª£ºendIndex - beginIndex;
-2¡¢´ÓbeginIndex¿ªÊ¼È¡£¬µ½endIndex½áÊø£¬´Ó0¿ªÊ¼Êı£¬ÆäÖĞ²»°üÀ¨endIndexÎ»ÖÃµÄ×Ö·û
-Èç£º
+ç¬¬ä¸€ä¸ªintä¸ºå¼€å§‹çš„ç´¢å¼•ï¼Œå¯¹åº”Stringæ•°å­—ä¸­çš„å¼€å§‹ä½ç½®ï¼Œ
+ç¬¬äºŒä¸ªæ˜¯æˆªæ­¢çš„ç´¢å¼•ä½ç½®ï¼Œå¯¹åº”Stringä¸­çš„ç»“æŸä½ç½®
+1ã€å–å¾—çš„å­—ç¬¦ä¸²é•¿åº¦ä¸ºï¼šendIndex - beginIndex;
+2ã€ä»beginIndexå¼€å§‹å–ï¼Œåˆ°endIndexç»“æŸï¼Œä»0å¼€å§‹æ•°ï¼Œå…¶ä¸­ä¸åŒ…æ‹¬endIndexä½ç½®çš„å­—ç¬¦
+å¦‚ï¼š
 "hamburger".substring(4, 8) returns "urge"
  "smiles".substring(1, 5) returns "mile"
 */
@@ -31,4 +31,4 @@ class Solution {
         }
         return res;
     }
-}
+} 
