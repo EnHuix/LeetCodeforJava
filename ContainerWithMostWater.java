@@ -22,7 +22,7 @@ class Solution {
 }
 
 
-以上时间复杂度为O(n^2)
+浠ヤ笂鏃堕棿澶嶆潅搴︿负O(n^2)
 */
 
 class Solution {
@@ -39,5 +39,5 @@ class Solution {
         return max;
     }
 }
-
-//该方法时间复杂度为O(n),空间复杂度为O(1).
+ 
+//璇ユ柟娉曟椂闂村鏉傚害涓篛(n),绌洪棿澶嶆潅搴︿负O(1).
