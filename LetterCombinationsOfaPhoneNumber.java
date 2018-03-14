@@ -24,11 +24,11 @@ class Solution {
     return ans;
 }
 }
-//ע�����ⷨ
+//注意该题解法
 /*
-peek()������ʾ���ǲ鿴��ջ�����Ķ��󣬵����Ӷ�ջ���Ƴ�����
-remove()Ϊɾȥջ��Ԫ�أ�������ɾȥ��Ķ�����û�в�������ÿ�ζ��ӵ�һ��Ԫ�ؿ�ʼɾȥ��
-remove()���������һ�����ط�������remove(int position)��remove(object object)
-ʹ��remove()�ķ���ʱ��Ҫ�ȴӴ�С��λ���Ƴ�����Ȼ�����֪������Ķ���ֱ���Ƴ�remove(����)�����ס�
-Ҫ����ע���Լ����õ�remove()�����еģ��������int���ͻ���һ������ 
-*/
+peek()函数表示的是查看堆栈顶部的对象，但不从堆栈中移除它。
+remove()为删去栈顶元素，并返回删去后的对象。若没有参数，则每次都从第一个元素开始删去。
+remove()这个方法是一个重载方法，即remove(int position)和remove(object object)
+使用remove()的方法时，要先从大到小的位置移除。当然如果你知道具体的对象，直接移除remove(对象)更稳妥。
+要密切注意自己调用的remove()方法中的，传入的是int类型还是一个对象。 
+*/ 
