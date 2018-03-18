@@ -16,7 +16,7 @@ class Solution {
         Arrays.sort(nums);
         List<List<Integer>> res=new LinkedList();
         for(int i=0;i<nums.length-3;i++){
-            if(i==0||(i>0&&nums[i]!=nums[i-1]))		//避免重复
+            if(i==0||(i>0&&nums[i]!=nums[i-1]))		//避免重复 
             for(int j=i+1;j<nums.length-2;j++){
                 if(i==j-1||(j>1&&nums[j]!=nums[j-1])){		//避免重复
                     int sum=nums[i]+nums[j];
