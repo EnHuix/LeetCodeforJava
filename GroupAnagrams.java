@@ -23,7 +23,7 @@ class Solution {
                 res.put(keyStr,new ArrayList<String>());
             res.get(keyStr).add(str);
         }
-        return new ArrayList<List<String>>(map.values());
+        return new ArrayList<List<String>>(res.values());
     }
   
 }
