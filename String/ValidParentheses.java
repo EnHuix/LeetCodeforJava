@@ -16,7 +16,7 @@ public boolean isValid(String s) {
 			stack.push(']');
 		else if (stack.isEmpty() || stack.pop() != c)
 			return false;
-	}
+	} 
 	return stack.isEmpty();
 }
 
@@ -46,4 +46,4 @@ class Solution {
     }
 }
 */
-//关于栈的性质
+//鹿脴脫脷脮禄碌脛脨脭脰脢
