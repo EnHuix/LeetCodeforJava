@@ -25,7 +25,7 @@ class Solution {
 }
 }
 //注意该题解法
-/*
+/* 
 peek()函数表示的是查看堆栈顶部的对象，但不从堆栈中移除它。
 remove()为删去栈顶元素，并返回删去后的对象。若没有参数，则每次都从第一个元素开始删去。
 remove()这个方法是一个重载方法，即remove(int position)和remove(object object)
